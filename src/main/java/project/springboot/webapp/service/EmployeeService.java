@@ -1,5 +1,6 @@
 package project.springboot.webapp.service;
 
+import org.springframework.data.domain.Page;
 import project.springboot.webapp.model.Employee;
 
 import java.util.List;
@@ -13,5 +14,9 @@ public interface EmployeeService {
     Employee getEmployeeById(long id);
 
     void deleteEmployeeById(long id);
+
+    Page<Employee> findPaginated(int pageNo, int pageSize, String sortField, String sortDirection);
+
+
 
 }
