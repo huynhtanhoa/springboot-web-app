@@ -22,7 +22,7 @@ It provides comprehensive features for CRUD operations, sorting based on various
 
 ## Setup Instructions
 
-1. Clone the repository: git clone **https://github.com/your-username/employee-management-system.git**
+1. Clone the repository: git clone **[https://github.com/your-username/employee-management-system.git](https://github.com/huynhtanhoa/springboot-web-app.git)**
 2. Navigate to the project directory: **cd employee-management-system**
 3. Configure the MySQL database settings in **application.properties**.
 4. Build the project using Maven: **mvn clean install**
